@@ -1,0 +1,8 @@
+---
+applications:
+- name: ws-soap
+  memory: 1G
+  buildpack: https://github.com/cloudfoundry-community/jboss-buildpack.git
+  path: target/ws-soap.war
+
+
